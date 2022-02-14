@@ -19,6 +19,10 @@ export function Header(){
                     <Link red to="/filme">
                         Filmes
                     </Link>
+
+                    <Link red to="/favoritos">
+                        Salvos
+                    </Link>
                 </Navigation>
             </HeaderNav>
         </Container>
