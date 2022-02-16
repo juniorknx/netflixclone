@@ -11,4 +11,5 @@ export const Wrapper = styled.div`
     justify-content:center;
     align-items:center;
     flex-wrap:wrap;
+    gap:2em;
 `;

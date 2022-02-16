@@ -1,6 +1,6 @@
 import { CardMovie, Title, Image, Description, Wrapper, Div, Button } from "./styles";
 
-export function MovieDescription({ title, image, description }) {
+export function MovieDescription({ title, image, description, saveMovie }) {
     return (
         <CardMovie>
             <Title>
@@ -15,6 +15,11 @@ export function MovieDescription({ title, image, description }) {
             </Wrapper>
 
             <Div>
+
+                <Button onClick={saveMovie}>
+                    Salvar
+                </Button>
+
                 <Button>
                     <a href={`https://www.youtube.com/results?search_query=trailer+${title}`} target="_blank" >
                         Trailer

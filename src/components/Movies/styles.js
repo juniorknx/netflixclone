@@ -6,7 +6,6 @@ export const Card = styled.div`
     align-self:stretch;
     background: hsla(0,0%,44.3%,.1411764705882353);
     padding: 2rem 0rem 2rem 0rem;
-    margin: 1rem;
     border-radius:5px;
     
     &:hover{
