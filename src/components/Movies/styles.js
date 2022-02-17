@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
-    flex-grow:0;
-    flex-basis:19rem;
-    align-self:stretch;
+    display:grid;
+    place-items:center;
     background: hsla(0,0%,44.3%,.1411764705882353);
     padding: 2rem 0rem 2rem 0rem;
     border-radius:5px;
+    align-content:stretch;
     
     &:hover{
         background: hsla(0,0%,96.1%,.0784313725490196);

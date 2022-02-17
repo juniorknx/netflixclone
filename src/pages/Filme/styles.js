@@ -7,9 +7,7 @@ export const Container = styled.section`
 `;
 
 export const Wrapper = styled.div`
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-wrap:wrap;
-    gap:2em;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap:20px;
 `;
