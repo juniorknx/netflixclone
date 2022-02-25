@@ -22,6 +22,10 @@ export const Description = styled.p`
 
 export const Wrapper = styled.div`
     padding:2em 5em 2em 5em;
+
+    @media(max-width:667px){
+        padding: 2em 1em 2em 1em;
+    }
 `;
 
 export const Div = styled.div`
