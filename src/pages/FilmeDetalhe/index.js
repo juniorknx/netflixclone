@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom"
 import { useEffect, useState } from "react";
 import { api } from "../../services/api";
 import { MovieDescription } from "../../components/FilmeDescricao";
-import { Container, Wrapper } from "./styles";
+import { Container, Loading, Wrapper } from "./styles";
 
 export function MovieDetail() {
 
@@ -21,7 +21,7 @@ export function MovieDetail() {
     }, [id])
 
     if (loading === true) {
-        return <h1>Carregando..</h1>
+        return <Loading>Carregando...</Loading>
     }
 
     const { nome, sinopse, foto } = movie;

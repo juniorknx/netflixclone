@@ -5,6 +5,7 @@ import { Home } from '../src/pages/Home';
 import { FilmeDetail } from './pages/Filme';
 import { Footer } from './components/Footer';
 import { MovieDetail } from './pages/FilmeDetalhe';
+import { ErrorPage } from './pages/404';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
               <Route exact path="/" element={<Home />} />
               <Route exact path='/filme' element={<FilmeDetail />} />
               <Route exact path="/filme/:id" element={<MovieDetail />} />
+              <Route exact path="*" element={<ErrorPage />} />
             </Routes>
           <Footer />
         </BrowserRouter>

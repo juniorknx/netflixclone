@@ -12,3 +12,7 @@ export const Wrapper = styled.div`
     align-items:center;
     flex-wrap:wrap;
 `;
+
+export const Loading = styled.h1`
+    text-align:center;
+`;
