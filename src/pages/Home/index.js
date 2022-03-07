@@ -5,10 +5,12 @@ import tv from '../../assets/img/tv.png'
 import mobile from '../../assets/img/mobile.jpeg';
 import devices from '../../assets/img/device-pile.png';
 import child from '../../assets/img/child.png'
+import { Head } from "../../Head";
 
 export function Home(){
     return (
         <>
+        <Head title="Início" />
         <Hero />
         <Features
             title="Aproveite na TV."

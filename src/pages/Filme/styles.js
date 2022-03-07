@@ -11,3 +11,7 @@ export const Wrapper = styled.div`
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap:20px;
 `;
+
+export const Loading = styled.h1`
+    text-align:center;
+`;
