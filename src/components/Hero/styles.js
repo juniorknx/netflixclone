@@ -13,6 +13,7 @@ export const Container = styled.section`
 
     @media(max-width:667px){
         background-size:cover;
+        background-blend-mode: multiply;
     }
 `;
 
